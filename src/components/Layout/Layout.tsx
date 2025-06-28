@@ -5,7 +5,7 @@ import Header from '../Header';
 
 export default function Layout() {
     return (
-        <section className='w-[1440px] h-[1080px] m-auto'>
+        <section className='relative w-[1440px] h-[1080px] m-auto bg-white'>
             <Header />
             <Outlet />
         </section>
